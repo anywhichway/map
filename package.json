@@ -1,0 +1,28 @@
+{
+  "name": "@anywhichway/map",
+  "version": "0.0.1",
+  "description": "Map over any iterable",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/anywhichway/map.git"
+  },
+  "keywords": [
+    "map",
+    "iterable",
+    "generator"
+  ],
+  "author": "Simon Y. Blackwell",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/anywhichway/map/issues"
+  },
+  "homepage": "https://github.com/anywhichway/map#readme",
+  "dependencies": {
+    "arg-waiter": "^0.0.1"
+  }
+}

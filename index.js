@@ -1,7 +1,9 @@
 import argWaiter from "arg-waiter";
 
 const map = argWaiter(async (iterable,f,what="values") => {
-    if(typeof(iterable.map)==="function") return iterable.map(f);
+    if(typeof(iterable.map)==="function") {
+        return iterable.map(f);
+    }
     const result = [];
     let forOK,
         i = 0;
@@ -13,7 +15,7 @@ const map = argWaiter(async (iterable,f,what="values") => {
         }
         return result;
     } catch(e) {
-        if(forOk) {
+        if(forOK) {
             throw e;
         }
     }
